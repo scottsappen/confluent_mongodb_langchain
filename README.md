@@ -8,7 +8,7 @@ The question was: can you use LangChain with Confluent and MongoDB together.
 
 The answer is: yes, you can.
 
-This repo isd overkill for sure, but it shows off LangChain’s orchestration capability even in a simple ETL-like flow with Confluent and MongoDB Atlas. It's meant to do 1 simple thing. Prove it out on your own without complicated infrastructure. Hands-on, but super easy to do. This repo:
+This repo is overkill for sure, but it shows off LangChain’s orchestration capability even in a simple ETL-like flow with Confluent and MongoDB Atlas. It's meant to do 1 simple thing. Prove it out on your own without complicated infrastructure. Hands-on, but super easy to do. This repo:
 - uses MongoDB Atlas's existing Sample netflix movie data
 - asks OpenAI for a summary of recommendations based on results retrieved from MongoDB Atlas
 - inserts the LLM response into a Confluent Kafka topic
