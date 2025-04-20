@@ -14,7 +14,7 @@ This repo is overkill for sure, but it shows off LangChain’s orchestration cap
 - inserts the LLM response into a Confluent Kafka topic
 - orchestrates it via LangChain
 
-And yes, yes, yes, I know. Why do ETL-like flows like this when there is growing popularity with other protocols like MCP and A2A and such for agentic-AI in particuar? This is merely meant to show you how to use LangChain libraries and simple workflow orchestration.
+And yes, yes, yes, I know. Why do ETL-like flows like this when there is growing popularity with other protocols like MCP and A2A and such for agentic-AI in particuar? Plus, aren't there a million other things you could do with LangChain? Yes. This is merely meant to show you how to use LangChain libraries and simple workflow orchestration.
 
 As is there are other ways to use LLMs. For instance, the Mongo data already has embeddings. You could query that directly in Python or you could query it in Confluent Flink SQL. You could even create embeddings in Confluent Flink SQL using something like ML_PREDICT. This is just meant to do what it's doing above, that's all. And so on, you get the idea.
 
