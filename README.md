@@ -86,7 +86,7 @@ Edit your [`client.properties`](./.env) file with your Confluent Cloud credentia
 
 Then run the python main program:
 
-```python
+```shell
 python main.py
 ```
 
