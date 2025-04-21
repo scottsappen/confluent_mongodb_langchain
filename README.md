@@ -1,4 +1,4 @@
-# Using LangChain with Confluent and MongoDB
+# Using LangChain with Confluent, MongoDB and OpenAI
 
 <br>
 
